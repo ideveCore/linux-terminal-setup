@@ -11,10 +11,9 @@ In this tutorial we will install Vim, Neovim and Lunarvim and configure the basi
 #### Pip:
   ##### In Debian or derivatives:
   
-	  sudo apt install python3-pip
+	sudo apt install python3-pip
   ##### In Arch or derivatives:
-  
-		pacman -S python-pip
+  	pacman -S python-pip
    ##### In Fedora:
    
 	sudo dnf install python3-pip
@@ -22,8 +21,8 @@ In this tutorial we will install Vim, Neovim and Lunarvim and configure the basi
 #### Nodejs-*
   ##### In Debian or derivatives:
   
-	  curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\
-	  sudo apt-get install -y nodejs
+  	curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\
+	sudo apt-get install -y nodejs
 ##### In Arch or derivatives:
 
 	sudo pacman -Sy nodejs npm
@@ -35,43 +34,43 @@ In this tutorial we will install Vim, Neovim and Lunarvim and configure the basi
 #### Essential packages for build
   ##### in Debian or derivatives:
   
-	  sudo apt install build-essential
+	sudo apt install build-essential
   
   ##### in Arch or derivatives:
   
-	  sudo pacman -Sy base-devel
+	sudo pacman -Sy base-devel
 	  
   ##### in Fedora:
   
-	  sudo dnf install make automake gcc gcc-c++ kernel-devel
-
-
+	sudo dnf install make automake gcc gcc-c++ kernel-devel
+	
 #### Vim
  ##### in Debian or derivatives:
   
-	  sudo apt install vim
+	sudo apt install vim
   
   ##### in Arch or derivatives:
   
-	  sudo pacman -Sy vim
+	sudo pacman -Sy vim
 	  
   ##### in Fedora:
   
-	  sudo dnf install vim
+	sudo dnf install vim
 
 #### Neovim
 
 **Attention! In Debian and Fedora derivates its recommends build from source code Neovim, in Arch is not necessary because contains the neovim package up-to-date.**
 ##### In Fedora and Debian or derivatives:
-
 	git clone https://github.com/neovim/neovim.git
 	make CMAKE_BUILD_TYPE=RelWithDebInfo
 	sudo make install
+	
 ##### In Arch or derivatives:
 
 	sudo pacman -Sy neovim
 	
 #### Neovim plugin - Neovim from Scratch
+
 	git clone https://github.com/ngscheurich/nvim-from-scratch ~/.config/nvim
 
 #### Lunarvim
