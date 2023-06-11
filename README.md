@@ -43,6 +43,18 @@ In this tutorial we will install Vim, Neovim and Lunarvim and configure the basi
   ##### in Fedora:
   
 	sudo dnf install make automake gcc gcc-c++ kernel-devel
+#### Install cmake:
+  ##### in Debian or derivatives:
+  
+	sudo apt install cmake
+  
+  ##### in Arch or derivatives:
+  
+	sudo pacman -Sy cmake
+	  
+  ##### in Fedora:
+  
+	sudo dnf install cmake
 	
 #### Vim
  ##### in Debian or derivatives:
