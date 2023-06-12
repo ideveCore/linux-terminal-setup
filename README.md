@@ -19,17 +19,7 @@ In this tutorial we will install Vim, Neovim and Lunarvim and configure the basi
 	sudo dnf install python3-pip
 	
 #### Nodejs-*
-  ##### In Debian or derivatives:
-  
-  	curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\
-	sudo apt-get install -y nodejs
-##### In Arch or derivatives:
-
-	sudo pacman -Sy nodejs npm
-
-##### In Fedora:
-
-	sudo dnf install nodejs
+[install nodejs here](https://github.com/nodesource/distributions)
 	 
 #### Essential packages for build
   ##### in Debian or derivatives:
